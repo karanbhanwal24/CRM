@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0d1b16"/>
+  <rect x="48" y="56" width="1184" height="80" rx="24" fill="#163127"/>
+  <text x="88" y="105" fill="#e2e8f0" font-size="34" font-family="Arial">Sales Dashboard</text>
+  <rect x="48" y="170" width="270" height="150" rx="24" fill="#1f4b3a"/>
+  <rect x="342" y="170" width="270" height="150" rx="24" fill="#1f4b3a"/>
+  <rect x="636" y="170" width="270" height="150" rx="24" fill="#1f4b3a"/>
+  <rect x="930" y="170" width="302" height="150" rx="24" fill="#1f4b3a"/>
+  <rect x="48" y="352" width="560" height="320" rx="24" fill="#163127"/>
+  <rect x="640" y="352" width="592" height="320" rx="24" fill="#163127"/>
+  <text x="88" y="396" fill="#e2e8f0" font-size="26" font-family="Arial">Open opportunities and today's follow-ups placeholder</text>
+</svg>

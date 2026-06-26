@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0d1b16"/>
+  <rect x="48" y="56" width="1184" height="80" rx="24" fill="#163127"/>
+  <text x="88" y="105" fill="#e2e8f0" font-size="34" font-family="Arial">Opportunity Details Timeline</text>
+  <rect x="48" y="170" width="500" height="470" rx="24" fill="#163127"/>
+  <rect x="580" y="170" width="652" height="470" rx="24" fill="#163127"/>
+  <text x="88" y="220" fill="#e2e8f0" font-size="26" font-family="Arial">Follow-up timeline placeholder</text>
+</svg>
