@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: crm-backend
+    env: python
+    rootDir: backend
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn config.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12"
+      - key: DJANGO_SETTINGS_MODULE
+        value: "config.settings.production"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_ALLOWED_HOSTS
+        value: "localhost,127.0.0.1"
+      - key: DJANGO_CORS_ALLOWED_ORIGINS
+        value: "https://your-react-frontend-url.vercel.app" # Replace with your Vercel frontend URL
+      - key: DATABASE_URL
+        fromDatabase:
+          name: crm-db
+          property: connectionString
+
+databases:
+  - name: crm-db
+    databaseName: crm_lite
+    user: crm_user
+    plan: free # Render's free tier database (lasts 90 days on free tier, or upgrade as needed)
